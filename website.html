@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/website.css">
+</head>
+
+<body>
+    <!--Section Principal-->
+    <div class="container">
+        <!--NavBar Sign In/Up-->
+        <div class="buttonsForm">
+            <div class="btnColor"></div>
+            <button id="btnSignin">Sign In</button>
+            <button id="btnSignup">Sign Up</button>
+        </div>
+        <!--Forms Sign In-->
+        <form action="pages/home.html" id="signin">
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Senha" required />
+            <button id="signinbtn" type="submit">Sign In</button>
+        </form>
+        <!--Forms Sign Up-->
+        <form action="pages/home.html" id="signup">
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Senha" required />
+            <input type="password" placeholder="Confirmar Senha" required />
+            <div class="divCheck">
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <!--JavaScript-->
+    <script src="assets/javascript/website.js"></script>
+</body>
+
+</html>
