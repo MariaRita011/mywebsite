@@ -13,10 +13,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #353130;
 }
 
 .container {
-    background-color: whitesmoke;
+    background-color: #4a4340;
     padding: 6px;
     width: 350px;
     height: 450px;
@@ -29,6 +30,7 @@ border-radius: 10px;
 -webkit-box-shadow: 10px 10px 30px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 30px -5px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 30px -5px rgba(0,0,0,0.75);
+
 }
 
 form {
@@ -43,7 +45,7 @@ form {
     margin-top: 40px;
     position: relative;
     border-radius: 30px;
-    box-shadow: 0 0 7px 0 blueviolet;
+    box-shadow: 0 0 9px 0 #C800FF;
 }
 
 .buttonsForm button {
@@ -58,7 +60,7 @@ form {
     position: absolute;
     width: 108px;
     height: 100%;
-    background: linear-gradient(to right, #ff7fcf, #7c3972);
+    background: linear-gradient(to right, #8600FF, #C800FF);
     border-radius: 30px;
     transition-property: .3s;
 }
@@ -73,7 +75,7 @@ input[type="text"], input[type="password"] {
 }
 
 button[type="submit"] {
-    background: #ff7fcf;
+    background: linear-gradient(to right, #8600FF, #C800FF);
     color: white;
     border-radius: 30px;
     width: 100%;
@@ -100,4 +102,12 @@ button[type="submit"] {
 #signup {
     left: 450px;
     
+}
+
+#signinbtn {
+    margin-top: 100px;
+}
+
+button {
+    color: white;
 }
