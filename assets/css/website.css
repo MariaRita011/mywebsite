@@ -65,7 +65,7 @@ form {
     transition-property: .3s;
 }
 
-input[type="text"], input[type="password"] {
+input[type="email"], input[type="password"] {
     border: none;
     margin-top: 40px;
     border-radius: 60px;
